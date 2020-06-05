@@ -23,6 +23,10 @@ public class SearchController {
         return "search";
     }
 
-    // TODO #3 - Create a handler to process a search request and render the updated search view.
+    // TODO #3 - Create a handler to process a search request and render the updated search view.@Controller
+    @RequestMapping()
+    public String displaySearchResults(Model model){
+
+    }
 
 }
